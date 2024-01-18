@@ -17,8 +17,10 @@
    - UniFi controller software to control the Ubiquiti network devices present without utilizing the cloud
    - Personal VPN for use when family members are mobile
 
-            
-Hardware List : 
+
+## Material List
+
+Hardware: 
    - Lenovo Thinkcentre m970q
        - 32 GB Ram
        - 1TB SSD
