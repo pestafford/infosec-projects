@@ -42,5 +42,6 @@ Most of these VMs and containers were taken from https://github.com/tteck/Proxmo
 Services:
   - Tailscale
 
+This will provide us the VPN capabilities. By connecting mobile users to the VPN , we can securely connect to relevant servers. Tailscale also can implement ACLs to provide a more robust network and adhere more closely to Zero Trust principles. 
         
         
