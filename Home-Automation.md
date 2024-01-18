@@ -21,16 +21,16 @@
 ## Material List
 
 Hardware: 
-   - Lenovo Thinkcentre m970q
-       - 32 GB Ram
-       - 1TB SSD
-       - Gigabit Internet Connection
+  - Lenovo Thinkcentre m970q
+    - 32 GB Ram
+    - 1TB SSD
+    - Gigabit Internet Connection
         
 Software:
-    - Proxmox Hypervisor
-       - Home Assistant VM
-       - Plex VM
-       - OpenMediaVault VM
+  - Proxmox Hypervisor
+    - Home Assistant VM
+    - Plex VM
+    - OpenMediaVault VM
 
 
 
