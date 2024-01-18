@@ -27,7 +27,7 @@ Hardware:
        - Gigabit Internet Connection
         
 Software:
-    -Proxmox Hypervisor
+    - Proxmox Hypervisor
        - Home Assistant VM
        - Plex VM
        - OpenMediaVault VM
