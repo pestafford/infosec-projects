@@ -54,10 +54,15 @@ Tutorials used in this project:
 
 ## Implementation
 
-This project went through rather smoothly. Procuring the hardware took less than a week, and the hypervisor installation was easily achieved. 
+This project went through rather smoothly. Procuring the hardware took less than a week, and the hypervisor installation was easily achieved. Proxmox was installed with no trouble, and then I began the process of installing the virtual machines and containers.
 
-Once I dug into proxmox's internals, the project became far more complicated. With the abundance of choice afforded by the hypervisor, I had to make design decisions. How to design the architecture? Would I use an additional firewall sich as pfsense or rely on Proxmox's internal firewall?
+### Network Design
+
+Once I dug into proxmox's internals, the project became far more complicated. With the abundance of choice afforded by the hypervisor, I had to make design decisions. How to design the architecture? Would I use an additional firewall such as pfsense or rely on Proxmox's internal firewall?
 
 Ultimately I went with a more Agile approach - create the first iteration and then go through, test, and improve again. I implemented a simple star network structure, with each VM connected to the hypervisor and sharing the address space with the hypervisor. 
 
 The next iteration will place all the services on another subnet behind a pfsense firewall. For now, the hypervisor firewall will act as our first line of network defense. 
+
+### Virtual Machines
+
