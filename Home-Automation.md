@@ -51,6 +51,7 @@ Resources used in this project:
 ## Design 
 
 ![](images/Automation_Layout.png)
+
 ### Network Design
 
 Once I dug into proxmox's internals, the project became far more complicated. With the abundance of choice afforded by the hypervisor, I had to make design decisions. How to design the architecture? Would I use an additional firewall such as pfsense or rely on Proxmox's internal firewall?
@@ -61,17 +62,23 @@ The next iteration will place all the services on separate subnet behind a pfsen
 
 ### Virtual Machines
 
-Home Assistant VM
-Plex VM
-OpenMediaVault VM
-Unifi controller container
+- Home Assistant VM
+- Plex VM
+- OpenMediaVault VM
+- Unifi controller LXC
     
 ### Services
 
-Tailscale VPN
+- Tailscale VPN
 
 [Tailscale](https://tailscale.com/)
 
 ## Implementation
 
 This project went through rather smoothly. Procuring the hardware took less than a week, and the hypervisor installation was easily achieved. Proxmox was installed with no trouble, and then I began the process of installing the virtual machines and containers.
+
+
+## Unexpected Issues
+
+
+## Conclusion
