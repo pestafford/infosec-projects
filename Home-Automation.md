@@ -42,6 +42,20 @@ Most of these VMs and containers were taken from https://github.com/tteck/Proxmo
 Services:
   - Tailscale
 
-This will provide us the VPN capabilities. By connecting mobile users to the VPN , we can securely connect to relevant servers. Tailscale also can implement ACLs to provide a more robust network and adhere more closely to Zero Trust principles. 
+This will provide us the VPN capabilities. By connecting mobile users to the VPN, we can securely connect to relevant servers. Tailscale also can implement ACLs to provide a more robust network and adhere more closely to Zero Trust principles. 
         
         
+## Research
+
+Tutorials used in this project:
+
+
+
+
+## Implementation
+
+This project went through rather smoothly. Procuring the hardware took less than a week, and the hypervisor installation was easily achieved. 
+
+Once I dug into proxmox's internals, the project became far more complicated. With the abundance of choice afforded by the hypervisor, I had to make design decisions. How to design the architecture? Would I use an additional firewall sich as pfsense or rely on Proxmox's internal firewall?
+
+Ultimately I went with a more Agile approach - create the first iteration and then go through, test, and improve again. I implemented a simple star network structure, with each VM connected to the hypervisor and sharing the address space
