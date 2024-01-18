@@ -1,4 +1,4 @@
-me# Home Automation Project
+# Home Automation Project
 
 ## Summary
   In this project, I created a server to control all automated tasks inside my home, including the shared services of my home such as Network-Attached Storage and the Media Server. I used a small form factor Lenovo Thinkcentre and installed a Proxmox hypervisor on it. I then installed multiple Virtual Machines to serve as each of the functions described above. 
@@ -36,7 +36,7 @@ Software:
     - OpenMediaVault VM
     - Unifi controller container
 
-Most of these VMs and containers were taken from https://github.com/tteck/Proxmox and modified as needed. Later iterations may just run a Docker instance for the containers (LXCs are presumably less secure), but for now the LXC runs in the hypervisor.
+Most of these VMs and containers were taken from [Proxmox VE Helper Scripts](https://github.com/tteck/Proxmox)and modified as needed. Later iterations may just run a Docker instance for the containers (LXCs are presumably less secure), but for now the LXC runs in the hypervisor.
 
 
 Services:
