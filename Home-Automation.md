@@ -25,14 +25,22 @@ Hardware:
     - 32 GB Ram
     - 1TB SSD
     - Gigabit Internet Connection
-        
+  - 5 TB Seagate External HDD
+
+The Thinkcentre was sourced via Amazon, but one could look on eBay for multiples if budget is a concern. However, supply chain security does need to be taken into account.
+
 Software:
   - Proxmox Hypervisor
     - Home Assistant VM
     - Plex VM
     - OpenMediaVault VM
+    - Unifi controller container
+
+Most of these VMs and containers were taken from https://github.com/tteck/Proxmox and modified as needed. Later iterations may just run a Docker instance for the containers (LXCs are presumably less secure), but for now the LXC runs in the hypervisor
 
 
+Services:
+  - Tailscale
 
         
         
