@@ -75,8 +75,19 @@ The next iteration will place all the services on separate subnet behind a pfsen
 
 This project went through rather smoothly. Procuring the hardware took less than a week, and the hypervisor installation was easily achieved. Proxmox was installed with no trouble, and then I began the process of installing the virtual machines and containers.
 
+The virtual machines were relatively easy to install. Using the tteck helpers made it simple enough to set up the VMs and the Unifi LXC. I did have trouble understanding exactly how to attach the external storage to the NAS logically. Once I understood that it needed to be mounted in the VM and mapped directly through the hypervisor, it fell into place.
+
+Setting up the Home Assistant became a rabbit hole. Being able to create dashboards that fit any kind of device will mean that I have even more work to do on the details of the Home Assistant server. I may at some point do a write-up explaining how I have Home Assistant set up. Some of the highlights include:
+
+- Map of both floors with indicators and buttons for each smart light
+- Server dashboard showing the vital stats with notifications set to ping admin via mobile app when temperature reaches a certain point
+- different dashboard permissions for each user
+- Multiple layouts for old iPads mounted around the house
 
 ## Unexpected Issues
 
 
 ## Conclusion
+
+
+
