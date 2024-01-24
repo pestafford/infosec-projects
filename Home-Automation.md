@@ -69,9 +69,7 @@ The next iteration will place all the services on separate subnet behind a pfsen
     
 ### Services
 
-- Tailscale VPN
-
-[Tailscale](https://tailscale.com/)
+- [Tailscale VPN](https://tailscale.com/)
 
 ## Implementation
 
