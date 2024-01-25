@@ -48,8 +48,16 @@ This will provide us the VPN capabilities. By connecting mobile users to the VPN
 Resources used in this project:
 
 [Creating a New Home Hacking Lab with Proxmox ](https://mattglass-it.com/proxmox_home_lab/)
+
+[Proxmox Forums](https://forum.proxmox.com/)
+
 [How to Create Apple Time Machine in Open Media Vault](https://dannyda.com/2019/07/17/how-to-create-apple-time-machine-in-open-media-vault-omv/)
+
 [Home Assistant: How to Set Up Your Server on Proxmox](https://www.homeassistantcoach.com/how-to/homelab-installation/home-assistant-how-to-set-up-your-server-on-proxmox/)
+
+[Home Assistant Community](https://community.home-assistant.io/)
+
+
 
 ## Design 
 
