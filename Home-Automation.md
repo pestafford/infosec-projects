@@ -48,10 +48,14 @@ This will provide us the VPN capabilities. By connecting mobile users to the VPN
 Resources used in this project:
 
 [Creating a New Home Hacking Lab with Proxmox ](https://mattglass-it.com/proxmox_home_lab/)
+[How to Create Apple Time Machine in Open Media Vault](https://dannyda.com/2019/07/17/how-to-create-apple-time-machine-in-open-media-vault-omv/)
+[Home Assistant: How to Set Up Your Server on Proxmox](https://www.homeassistantcoach.com/how-to/homelab-installation/home-assistant-how-to-set-up-your-server-on-proxmox/)
 
 ## Design 
 
+
 ![](images/Automation_Layout.png)
+
 
 ### Network Design
 
@@ -71,6 +75,10 @@ The next iteration will place all the services on separate subnet behind a pfsen
 ### Services
 
 - [Tailscale VPN](https://tailscale.com/)
+- Plex
+- Time Machine
+- Home Assistant
+- Ubiquiti Unifi controller (will be moved into another section as this isn't really in scope but was necessary at the time to install)
 
 ## Implementation
 
