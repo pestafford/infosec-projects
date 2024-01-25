@@ -1,7 +1,8 @@
 # Home Automation Project
 
 ## Summary
-  In this project, I created a server to control all automated tasks inside my home, including the shared services of my home such as Network-Attached Storage and the Media Server. I used a small form factor Lenovo Thinkcentre and installed a Proxmox hypervisor on it. I then installed multiple Virtual Machines to serve as each of the functions described above. 
+  
+   I created a server to control all automated tasks inside my house, including the shared services of my home such as Network-Attached Storage and the Media Server. I used a small form factor Lenovo Thinkcentre and installed a Proxmox hypervisor on it. I then installed multiple Virtual Machines to serve as each of the functions described above. Once all the services were set up, the userbase was sufficiently impressed with the feature set. This is the perennial home server project. 
 
 ## Purpose
 
@@ -86,8 +87,13 @@ Setting up the Home Assistant became a rabbit hole. Being able to create dashboa
 
 ## Unexpected Issues
 
+I was not aware of how much research this project was going to require. I had a good handle on the theory and I've worked with virtualization before, but having this particular configuration of software and hardware was new to me. Luckily, proxmox has some excellent community forums and I was able to find nearly everything I needed, especially when mapping the external storage devices through the hypervisor to the NAS. 
+
+I was also not aware of the potential rabbit-holes here. Proxmox was one, and is at time of writing the backbone of my homelab. It's very useful dealing with virtualization locally under the hood. It provides the viewpoint of a datacenter and what cloud providers need to do to keep their systems running.
+
+The other rabbit-hole was Home Assistant. It has a thriving community, and many many addons and scripts to use in setting it up for the average user. The project is one in the category of having non-technical users adopt a technical solution that has an easy to use frontend no matter how complex it has to be on the backend. I was able to set up the existing smart features of my house, and it will be very useful once we move to the new house later this year. I will be able to plan the automation setup from scratch at that point, and this will lead to yet another project. Which is what projects are supposed to do! 
 
 ## Conclusion
 
-
+This was a lot of fun getting set up and I enjoyed learning all the intricate parts of this hypervisor. I've had months and months with this server, and I'm still tinkering with it all the time. I've trained my wife on how to use the Home Assistant App to control the lights, and we were able to watch our own media on a hotel TV while on a business trip in the Bay Area. Those were impressive features that my userbase (wife and kids) were able to understand and use right from the beginning. More projects are on their way, and this was just the beginning.
 
